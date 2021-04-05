@@ -12,4 +12,4 @@ restart = input("Riprovare?(s/n)")
 if restart == "s":
     pari()
 else:
-    print ("pacco")
+    print("pacco")
