@@ -1,3 +1,2 @@
 # verbose-disco
-Private repo for complete beginners
-...a che cazzo serve sto README?
+sono un readme inutile, ma devo esistere per qualche motivo
