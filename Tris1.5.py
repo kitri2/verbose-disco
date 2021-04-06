@@ -42,8 +42,8 @@ def game():
 
         move = input()
 
-        if theBoard[move] == ' ':                   # se l'input ricevuto è uguale a una casella vuota, ci mette il valore della var turn, X o O
-            theBoard[move] = turn
+        if theBoard[move] == ' ':                   # se l'input ricevuto è uguale a una casella vuota,
+            theBoard[move] = turn                   # ci mette il valore della var turn, X o O
             count += 1
         else:
             print("That place is already filled.\nMove to which place?")
