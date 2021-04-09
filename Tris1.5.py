@@ -14,9 +14,9 @@ theBoard = {'7': ' ', '8': ' ', '9': ' ',
 
 board_keys = []
 
-for key in theBoard:                              #???
-    board_keys.append(key)                        #??? PS: ok apparentemente rimuovendo ste due righe
-                                                  # ricominciando la partita non si ripulisce la tavola (CAPISCI PERCHE)
+for key in theBoard:  # ???
+    board_keys.append(key)  # ??? PS: ok apparentemente rimuovendo ste due righe
+    # ricominciando la partita non si ripulisce la tavola (CAPISCI PERCHE)
 ''' We will have to print the updated board after every move in the game and 
     thus we will make a function in which we'll define the printBoard function
     so that we can easily print the board everytime by calling this function. '''
@@ -36,14 +36,14 @@ def game():
     turn = 'X'
     count = 0
 
-    for i in range(10):                             # i = input??
-        printBoard(theBoard)                        # printBoard(theBoard) --> richiama la funzione printBoard (line 25)
+    for i in range(10):  # i = input??
+        printBoard(theBoard)  # printBoard(theBoard) --> richiama la funzione printBoard (line 25)
         print("It's your turn," + turn + ".Move to which place?")
 
         move = input()
 
-        if theBoard[move] == ' ':                   # se l'input ricevuto è uguale a una casella vuota,
-            theBoard[move] = turn                   # ci mette il valore della var turn, X o O
+        if theBoard[move] == ' ':  # se l'input ricevuto è uguale a una casella vuota,
+            theBoard[move] = turn  # ci mette il valore della var turn, X o O
             count += 1
         else:
             print("That place is already filled.\nMove to which place?")
