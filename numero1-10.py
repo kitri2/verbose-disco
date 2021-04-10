@@ -12,7 +12,7 @@ import random
 
 print("Ciao, sono figlio di Edoardo Dal Prà e Alessandro Jelveh. Mi piace giocare con i numeri!")
 
-random_number = random.randint(1, 10)
+
 
 # funzione program
 
