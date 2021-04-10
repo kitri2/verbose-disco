@@ -12,12 +12,14 @@ import random
 
 print("Ciao, sono figlio di Edoardo Dal Prà e Alessandro Jelveh. Mi piace giocare con i numeri!")
 
-random_number = random.randint(1, 10)
+
 
 # funzione program
 
 
 def program():
+    random_number = random.randint(1, 10)
+
     numero_input = int(input("Sto pensando a un numero da 1 a 10, quale? "))
 
     if numero_input <= 10:
